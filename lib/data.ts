@@ -141,7 +141,7 @@ export const experience = [
   {
     code: "VSE",
     company: "Visech Technologies",
-    role: "Junior Flutter Developer",
+    role: "Intern Flutter Developer",
     period: "04/2023 – 10/2023",
     location: "Karachi",
     summary: "Flutter screens, REST APIs and the first production Git habits.",
