@@ -4,18 +4,16 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { profile } from "@/lib/data";
 
-const DOTS = 8;
 const WORD = profile.shortName.toUpperCase();
 const ease = [0.22, 1, 0.36, 1] as const;
 
 export function Splash() {
   const [gone, setGone] = useState(false);
   const [hiding, setHiding] = useState(false);
-  const [progress, setProgress] = useState(6);
 
   useEffect(() => {
-    let frame = 0;
     let outTimer = 0;
+    let waitTimer = 0;
     let finished = false;
     const start = performance.now();
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -25,8 +23,6 @@ export function Splash() {
     const finish = () => {
       if (finished) return;
       finished = true;
-      cancelAnimationFrame(frame);
-      setProgress(100);
       setHiding(true);
       document.documentElement.classList.remove("is-splash");
       outTimer = window.setTimeout(() => setGone(true), 700);
@@ -41,28 +37,24 @@ export function Splash() {
     }
 
     let loaded = document.readyState === "complete";
+    const tryFinish = () => {
+      if (!loaded) return;
+      const wait = Math.max(0, 1600 - (performance.now() - start));
+      waitTimer = window.setTimeout(finish, wait);
+    };
+
     const onLoad = () => {
       loaded = true;
+      tryFinish();
     };
-    window.addEventListener("load", onLoad);
 
-    const tick = (now: number) => {
-      const elapsed = now - start;
-      const eased = 1 - (1 - Math.min(elapsed / 1700, 1)) ** 3;
-      const next = loaded && elapsed > 1600 ? 100 : Math.min(90, 8 + eased * 82);
-      setProgress(next);
-      if (next >= 100) {
-        finish();
-        return;
-      }
-      frame = requestAnimationFrame(tick);
-    };
-    frame = requestAnimationFrame(tick);
+    if (loaded) tryFinish();
+    else window.addEventListener("load", onLoad);
 
     return () => {
       finished = true;
-      cancelAnimationFrame(frame);
       window.clearTimeout(outTimer);
+      window.clearTimeout(waitTimer);
       window.removeEventListener("load", onLoad);
       document.documentElement.classList.remove("is-splash");
     };
@@ -71,25 +63,12 @@ export function Splash() {
   if (gone) return null;
 
   return (
-    <div
-      className={`splash ${hiding ? "is-out" : ""}`}
-      role="progressbar"
-      aria-label="Loading"
-      aria-valuemin={0}
-      aria-valuemax={100}
-      aria-valuenow={Math.round(progress)}
-    >
+    <div className={`splash ${hiding ? "is-out" : ""}`} role="status" aria-label="Loading">
       <motion.div
         className="splash-stage"
         animate={hiding ? { opacity: 0, y: -18, filter: "blur(10px)" } : { opacity: 1, y: 0 }}
         transition={{ duration: 0.55, ease }}
       >
-        <div className="splash-ring" aria-hidden>
-          {Array.from({ length: DOTS }, (_, i) => (
-            <i key={i} style={{ "--i": i } as React.CSSProperties} />
-          ))}
-        </div>
-
         <p className="splash-word">
           {WORD.split("").map((letter, index) => (
             <span key={`${letter}-${index}`} className="splash-letter">
@@ -120,13 +99,6 @@ export function Splash() {
         >
           {profile.title}
         </motion.p>
-
-        <div className="splash-track">
-          <div className="splash-bar" aria-hidden>
-            <span style={{ width: `${progress}%` }} />
-          </div>
-          <span className="splash-pct">{String(Math.round(progress)).padStart(2, "0")}</span>
-        </div>
       </motion.div>
     </div>
   );

@@ -286,12 +286,6 @@ body::before {
   .marquee-track {
     animation: none;
   }
-  .splash-ring {
-    animation: none;
-  }
-  .splash-bar span {
-    transition: none;
-  }
   .rs-panel,
   .rs-input,
   .rs-area {
@@ -321,39 +315,6 @@ body::before {
   display: grid;
   justify-items: center;
   gap: 1.15rem;
-}
-
-.splash-ring {
-  position: relative;
-  width: 2.35rem;
-  height: 2.35rem;
-  margin-bottom: 0.35rem;
-  animation: splash-spin 1s linear infinite;
-}
-
-.splash-ring i {
-  position: absolute;
-  inset: 0;
-  transform: rotate(calc(var(--i) * 45deg));
-}
-
-.splash-ring i::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 0.28rem;
-  height: 0.28rem;
-  margin-left: -0.14rem;
-  border-radius: 50%;
-  background: #fff;
-  opacity: calc(1 - (var(--i) * 0.12));
-}
-
-@keyframes splash-spin {
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 .splash-word {
@@ -390,38 +351,6 @@ body::before {
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--color-ink-mute);
-}
-
-.splash-track {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  margin-top: 0.55rem;
-}
-
-.splash-bar {
-  width: 7.25rem;
-  height: 3px;
-  overflow: hidden;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.12);
-}
-
-.splash-bar span {
-  display: block;
-  height: 100%;
-  border-radius: inherit;
-  background: #fff;
-  transition: width 0.1s linear;
-}
-
-.splash-pct {
-  min-width: 1.6rem;
-  font-family: var(--font-display), ui-sans-serif, system-ui, sans-serif;
-  font-size: 0.7rem;
-  letter-spacing: 0.08em;
-  color: var(--color-ink-mute);
-  font-variant-numeric: tabular-nums;
 }
 
 @media (pointer: fine) {
