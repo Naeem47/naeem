@@ -1,0 +1,258 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 2 /Kids [7 0 R 8 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Length 3771 >>
+stream
+BT
+/F1 10 Tf
+/F2 18 Tf
+1 0 0 1 54 716 Tm
+(Muhammad Naeem Muhammad Iqbal) Tj
+/F1 10 Tf
+1 0 0 1 54 702 Tm
+(Flutter Developer | Karachi, Pakistan | 3 years experience) Tj
+/F1 10 Tf
+1 0 0 1 54 688 Tm
+(tfanaeem@gmail.com | +92 321 8914005) Tj
+/F2 12 Tf
+1 0 0 1 54 656 Tm
+(Summary) Tj
+/F1 10 Tf
+1 0 0 1 54 642 Tm
+(Results-driven Flutter developer with 3 years of experience shipping production apps across) Tj
+/F1 10 Tf
+1 0 0 1 54 628 Tm
+(social, e-commerce, live-streaming, and productivity domains. Expertise in BLoC and) Tj
+/F1 10 Tf
+1 0 0 1 54 614 Tm
+(Riverpod, Firebase, Agora SDK, and RevenueCat. Apps with 500K+ combined downloads.) Tj
+/F2 12 Tf
+1 0 0 1 54 582 Tm
+(Skills) Tj
+/F1 10 Tf
+1 0 0 1 54 568 Tm
+(Languages: Dart, TypeScript, JavaScript, Python) Tj
+/F1 10 Tf
+1 0 0 1 54 554 Tm
+(Frameworks: Flutter, Node.js, Nest.js) Tj
+/F1 10 Tf
+1 0 0 1 54 540 Tm
+(State Management: BLoC, Riverpod, Provider, GetX) Tj
+/F1 10 Tf
+1 0 0 1 54 526 Tm
+(Tools: Firebase, Google Maps, Git/GitHub, Platform Channels, npm, CLI Development) Tj
+/F1 10 Tf
+1 0 0 1 54 512 Tm
+(Features: Video/Multimedia, Live Streaming/Agora, Real-Time Chat, In-App Purchases, AdMob,) Tj
+/F1 10 Tf
+1 0 0 1 54 498 Tm
+(AI Integration, FFmpeg, Role-Based Access) Tj
+/F2 12 Tf
+1 0 0 1 54 466 Tm
+(Experience) Tj
+/F2 10 Tf
+1 0 0 1 54 452 Tm
+(Maze Digital - Mid-level Flutter Developer | 04/2024-Present | Karachi) Tj
+/F1 10 Tf
+1 0 0 1 54 438 Tm
+(- Shipped production Flutter apps across social, live-streaming, and productivity domains,) Tj
+/F1 10 Tf
+1 0 0 1 54 424 Tm
+(contributing to products with 500K+ combined downloads.) Tj
+/F1 10 Tf
+1 0 0 1 54 410 Tm
+(- Built a client-side FFmpeg composition pipeline \(HDR/SDR detection, layout overlays,) Tj
+/F1 10 Tf
+1 0 0 1 54 396 Tm
+(skip-reencode\) and a dual Socket.IO manager for chat and live notifications.) Tj
+/F1 10 Tf
+1 0 0 1 54 382 Tm
+(- Implemented Agora live streaming, RevenueCat subscriptions, Firebase auth/data, and) Tj
+/F1 10 Tf
+1 0 0 1 54 368 Tm
+(role-based access in BLoC/Riverpod architectures.) Tj
+/F1 10 Tf
+1 0 0 1 54 354 Tm
+(- Partnered with design and backend teams to deliver pixel-perfect iOS and Android releases) Tj
+/F1 10 Tf
+1 0 0 1 54 340 Tm
+(with queued uploads, offline caches, and performance-tuned video playback.) Tj
+/F2 10 Tf
+1 0 0 1 54 316 Tm
+(VativeApps - Junior Flutter Developer | 11/2023-03/2024 | Karachi) Tj
+/F1 10 Tf
+1 0 0 1 54 302 Tm
+(- Delivered Flutter features for client products using Provider/GetX, Firebase) Tj
+/F1 10 Tf
+1 0 0 1 54 288 Tm
+(Authentication, Firestore, and Cloud Messaging.) Tj
+/F1 10 Tf
+1 0 0 1 54 274 Tm
+(- Integrated Google Maps, in-app purchases, and AdMob; profiled jank and reduced crash-prone) Tj
+/F1 10 Tf
+1 0 0 1 54 260 Tm
+(media paths before store submission.) Tj
+/F1 10 Tf
+1 0 0 1 54 246 Tm
+(- Collaborated in Agile sprints with senior engineers, writing reusable widgets and handling) Tj
+/F1 10 Tf
+1 0 0 1 54 232 Tm
+(REST API integrations on Android and iOS.) Tj
+/F2 10 Tf
+1 0 0 1 54 208 Tm
+(Visech Technologies - Junior Flutter Developer | 04/2023-10/2023 | Karachi) Tj
+/F1 10 Tf
+1 0 0 1 54 194 Tm
+(- Built Flutter screens and reusable UI components for early-stage mobile products, wiring) Tj
+/F1 10 Tf
+1 0 0 1 54 180 Tm
+(REST APIs and local persistence.) Tj
+/F1 10 Tf
+1 0 0 1 54 166 Tm
+(- Implemented authentication flows, form validation, and basic state management while) Tj
+/F1 10 Tf
+1 0 0 1 54 152 Tm
+(learning production Git and code-review practices.) Tj
+/F1 10 Tf
+1 0 0 1 54 138 Tm
+(- Supported QA and store-readiness checklists for Android/iOS builds, fixing layout and) Tj
+/F1 10 Tf
+1 0 0 1 54 124 Tm
+(navigation bugs across device sizes.) Tj
+/F2 12 Tf
+1 0 0 1 54 92 Tm
+(Projects) Tj
+/F2 10 Tf
+1 0 0 1 54 78 Tm
+(floom-cli - Node.js, TypeScript, npm, Dart/Flutter, Firebase) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Length 2789 >>
+stream
+BT
+/F1 10 Tf
+/F1 10 Tf
+1 0 0 1 54 724 Tm
+(- Designed and built an npm-published Flutter scaffolder \(like NestJS schematics\) with) Tj
+/F1 10 Tf
+1 0 0 1 54 710 Tm
+(composable architecture, state, networking, DI, and optional Firebase templates.) Tj
+/F1 10 Tf
+1 0 0 1 54 696 Tm
+(- Added a generate command that detects existing architecture/state libraries and emits) Tj
+/F1 10 Tf
+1 0 0 1 54 682 Tm
+(correctly-wired modules, repositories, and pages - plus CI-friendly flag-driven setup.) Tj
+/F2 10 Tf
+1 0 0 1 54 658 Tm
+(Knock Knock - Flutter, FFmpeg, Socket.IO, AWS S3, Provider, GetIt, Hive) Tj
+/F1 10 Tf
+1 0 0 1 54 644 Tm
+(- Built a client-side FFmpeg composition pipeline with HDR/SDR detection, movable video) Tj
+/F1 10 Tf
+1 0 0 1 54 630 Tm
+(layout, and skip-reencode when no overlays are needed.) Tj
+/F1 10 Tf
+1 0 0 1 54 616 Tm
+(- Designed a dual Socket.IO manager \(chat + notifications\) with auth, reconnect/backoff, and) Tj
+/F1 10 Tf
+1 0 0 1 54 602 Tm
+(facades for DMs, groups, and live updates.) Tj
+/F1 10 Tf
+1 0 0 1 54 588 Tm
+(- Shipped a Stories/Posts creator \(camera, drawing, text, GIFs/stickers, collage\) and a) Tj
+/F1 10 Tf
+1 0 0 1 54 574 Tm
+(queued upload flow to S3, plus deep-link referrals and Hive chat caches.) Tj
+/F2 10 Tf
+1 0 0 1 54 550 Tm
+(Viewveer - Flutter, Agora, Firebase, Riverpod, Live Streaming) Tj
+/F1 10 Tf
+1 0 0 1 54 536 Tm
+(- Implemented short-video feed playback and live-streaming rooms with Agora SDK, including) Tj
+/F1 10 Tf
+1 0 0 1 54 522 Tm
+(host/viewer roles and in-room chat.) Tj
+/F1 10 Tf
+1 0 0 1 54 508 Tm
+(- Built voice and video calling flows, social interactions, gift/coin monetization, and) Tj
+/F1 10 Tf
+1 0 0 1 54 494 Tm
+(media upload paths.) Tj
+/F2 10 Tf
+1 0 0 1 54 470 Tm
+(Alpha Arc - Flutter, Riverpod, RevenueCat, Firebase, AI Integration) Tj
+/F1 10 Tf
+1 0 0 1 54 456 Tm
+(- Developed habit tracking, journaling, breathwork, and hydration modules for iOS and) Tj
+/F1 10 Tf
+1 0 0 1 54 442 Tm
+(Android.) Tj
+/F1 10 Tf
+1 0 0 1 54 428 Tm
+(- Integrated AI coaching, members-only sales training, role-based access, and RevenueCat) Tj
+/F1 10 Tf
+1 0 0 1 54 414 Tm
+(subscriptions.) Tj
+/F2 10 Tf
+1 0 0 1 54 390 Tm
+(Matchify - Flutter, Agora, Firebase, Riverpod, Real-Time Chat) Tj
+/F1 10 Tf
+1 0 0 1 54 376 Tm
+(- Built swipe matching, profile discovery, and realtime messaging with presence and push) Tj
+/F1 10 Tf
+1 0 0 1 54 362 Tm
+(notifications.) Tj
+/F1 10 Tf
+1 0 0 1 54 348 Tm
+(- Integrated Agora audio/video calls, Firebase auth/chat, and AI-assisted matching) Tj
+/F1 10 Tf
+1 0 0 1 54 334 Tm
+(recommendations.) Tj
+/F2 12 Tf
+1 0 0 1 54 302 Tm
+(Education) Tj
+/F1 10 Tf
+1 0 0 1 54 288 Tm
+(B.B.I.T. - Bachelor of Business & Information Technology \(currently pursuing\), Karachi,) Tj
+/F1 10 Tf
+1 0 0 1 54 274 Tm
+(Sindh. Expected 08/2025.) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 5 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> >>
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 6 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000266 00000 n 
+0000004088 00000 n 
+0000006928 00000 n 
+0000007064 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+7200
+%%EOF
